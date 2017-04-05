@@ -9,13 +9,14 @@ body {
 	/*opacity: 0.6;*/
 }
 .swiper-container.bg{
-	background-image: url(../Images/bg_white.jpg);
+	/*background-image: url(../Images/bg_white.jpg);*/
+	background:#fff;
 }
 .swiper-slide {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	/*background-image: url(../Images/bg_white.jpg);*/
-	background-color: rgba(246,246,238,0.6);
+	/*background-color: rgba(246,246,238,0.6);*/
 	/*opacity: 0.9;*/
 }
 .swiper-slide-s {
