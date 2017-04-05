@@ -1734,9 +1734,10 @@ ul.uk-nav-sub {
 .uk-nav-offcanvas > li > a {
   color: #cccccc;
   padding: 10px 15px;
-  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  /*border-top: 1px solid rgba(0, 0, 0, 0.3);*/
   /*box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);*/
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  position:relative.uk-nav li > a;
 }
 /*
  * Hover
@@ -1796,7 +1797,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
      * Modifier `uk-nav-offcanvas`
      */
 .uk-nav-offcanvas {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  /*border-bottom: 1px solid rgba(0, 0, 0, 0.3);*/
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 /*
@@ -8009,4 +8010,13 @@ a.uk-thumbnail:focus {
   width:140px;
   display:block;
   margin:0 auto;
+}
+.link_btn{
+  height:15px;
+}
+.uk-nav li{
+  margin-bottom:15px;
+}
+.uk-nav li a{
+  border-left:10px solid;
 }
