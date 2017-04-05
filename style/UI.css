@@ -1737,7 +1737,6 @@ ul.uk-nav-sub {
   /*border-top: 1px solid rgba(0, 0, 0, 0.3);*/
   /*box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);*/
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
-  position:relative.uk-nav li > a;
 }
 /*
  * Hover
@@ -8018,5 +8017,27 @@ a.uk-thumbnail:focus {
   margin-bottom:15px;
 }
 .uk-nav li a{
-  border-left:10px solid;
+  position:relative;
+}
+.sele{
+  position:absolute;
+  right:13px;
+  top:50%;
+  width:15px;
+  margin-top:-5px;
+}
+.border_index{
+  border-left:10px solid #6bab62;
+}
+.border_shistory{
+  border-left:10px solid #5286b4;
+}
+.border_zhongbang{
+  border-left:10px solid #b4a56e;
+}
+.border_renwu{
+  border-left:10px solid #a974a3;
+}
+.border_shunjian{
+  border-left:10px solid #e8b03c;
 }
