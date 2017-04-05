@@ -1735,7 +1735,7 @@ ul.uk-nav-sub {
   color: #cccccc;
   padding: 10px 15px;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  /*box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);*/
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
 }
 /*
@@ -7068,7 +7068,9 @@ a.uk-thumbnail:focus {
   /* 2 */
   width: 270px;
   max-width: 100%;
-  background: #333333;
+  background: url("../images/nav_bac.png");
+  background-repeat:repeat-y;
+  background-size:100% auto;
   /* 3 */
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
@@ -7077,6 +7079,7 @@ a.uk-thumbnail:focus {
   transition: transform 0.3s ease-in-out;
   /* 5 */
   -ms-scroll-chaining: none;
+  box-shadow: 10px 0px 20px #888888;
 }
 .uk-offcanvas.uk-active .uk-offcanvas-bar.uk-offcanvas-bar-show {
   -webkit-transform: translateX(0%);
@@ -7093,7 +7096,7 @@ a.uk-thumbnail:focus {
 /* Panel in offcanvas
  ========================================================================== */
 .uk-offcanvas .uk-panel {
-  margin: 20px 15px;
+  margin: 30px 15px;
   color: #777777;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
 }
@@ -7114,8 +7117,8 @@ a.uk-thumbnail:focus {
   bottom: 0;
   right: 0;
   width: 1px;
-  background: rgba(0, 0, 0, 0.6);
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.6);
+  /*background: rgba(0, 0, 0, 0.6);*/
+  box-shadow: 10px 0 0px 2px rgba(0, 0, 0, 0.6);
 }
 .uk-offcanvas-bar-flip:after {
   right: auto;
@@ -8001,4 +8004,9 @@ a.uk-thumbnail:focus {
   h3 {
     page-break-after: avoid;
   }
+}
+.uk-offcanvas .uk-panel img{
+  width:140px;
+  display:block;
+  margin:0 auto;
 }
