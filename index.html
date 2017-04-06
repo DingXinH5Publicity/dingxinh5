@@ -253,8 +253,8 @@ var swiperM = new Swiper('#mainSwiper', {
 //目录点击后处理事件
 $('.pagelist').click(function(e) {
 	_czc.push(﻿["_trackEvent", "Comment", "Click", "Clicked"]);
-	var pagecounter = $(e.target).attr("pagecounter");
-	console.log($(e.target))
+	var pagecounter = $(this).attr("pagecounter");
+	// console.log($(e.target))
 	//		console.log(page,pagecounter);
 	if (pagecounter != page) {
 		jumpToPage(swiperM, pagecounter);
