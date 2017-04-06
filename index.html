@@ -164,8 +164,8 @@ var swiperM = new Swiper('#mainSwiper', {
 		};
 		sessionStorage.setItem(mpage, page);
 		_czc.push(﻿["_trackEvent", "Pages", "View", page]);
-		//		console.log(swiper.activeIndex,swiper.previousIndex);
-		//		console.log("正常翻页",page);
+		console.log(swiper.activeIndex,swiper.previousIndex);
+		console.log("正常翻页",page);
 		//if(uppage==1){
 		//	page--;
 		//};
@@ -258,8 +258,8 @@ var swiperM = new Swiper('#mainSwiper', {
 //目录点击后处理事件
 $('.pagelist').click(function(e) {
 	_czc.push(﻿["_trackEvent", "Comment", "Click", "Clicked"]);
-	var pagecounter = $(e.target).attr("pagecounter");
-	//		console.log(page,pagecounter);
+	var pagecounter = $(this).attr("pagecounter");
+			console.log(page,pagecounter);
 	if (pagecounter != page) {
 		jumpToPage(swiperM, pagecounter);
 		swiperAnimate(swiperM);
