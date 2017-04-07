@@ -8121,14 +8121,14 @@ a.uk-thumbnail:focus {
   padding-bottom:10px;
 }
 /*封面故事logo*/
-.slide_5 .logo, .slide_4 .logo, .slide_6 .logo, .slide_7 .logo{
+.slide_5 .logo, .slide_4 .logo, .slide_6 .logo, .slide_7 .logo, .slide_9 .logo, .slide_10 .logo, .slide_11 .logo{
   overflow:hidden;
   padding-top:4.6%;
   padding-bottom:3.5%;
 }
-.slide_5 .logo img, .slide_4 .logo img,  .slide_6 .logo img, .slide_7 .logo img{
+.slide_5 .logo img, .slide_4 .logo img,  .slide_6 .logo img, .slide_7 .logo img, .slide_9 .logo img, .slide_10 .logo img, .slide_11 .logo img{
   float:right;
-  margin-right:40px;
+  margin-right:30px;
   width:22.34%;
 }
 .slide4_bac{
@@ -8220,14 +8220,14 @@ a.uk-thumbnail:focus {
   position:relative;
   padding-bottom:10px;
 }
-.slide_7 .cont_1 .slide_7_title, .slide_7 .cont_2 .slide_7_title{
+.slide_7 .cont_1 .slide_7_title, .slide_7 .cont_2 .slide_7_title, .slide_9 .cont_1 .slide_9_title, .slide_11 .cont_1 .slide_11_title{
     margin: 0 30px;
     font-size: 16px;
     color: #000;
     line-height: 3;
     font-weight: bold;
 }
-.slide_7 .cont_1 .slide_7_text, .slide_7 .cont_2 .slide_7_text{
+.slide_7 .cont_1 .slide_7_text, .slide_7 .cont_2 .slide_7_text, .slide_9 .cont_1 .slide_9_text, .slide_11 .cont_1 .slide_11_text{
     margin: 0 30px;
     font-size: 12px;
     color: #000;
@@ -8297,5 +8297,23 @@ a.uk-thumbnail:focus {
   color:#000;
   font-size: 14px;
   line-height:2;
-
+}
+.slide_9 .cont_1{
+  background:url("../images/slide_9_cont1_bac.png") repeat-y;
+  background-size:81.3% auto;
+  background-position:30px 40px;
+  padding-bottom:10px;
+}
+.slide_9_top_cont{
+  overflow:hidden;
+  margin-top:-20px;
+  margin-bottom:-35px;
+}
+.slide_9_top_cont img{
+  width:23.75%;
+  float:right;
+  margin-right:30px;
+}
+.slide_9_cont_img1{
+  margin:15px 0;
 }
