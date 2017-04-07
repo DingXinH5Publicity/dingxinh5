@@ -8113,7 +8113,7 @@ a.uk-thumbnail:focus {
           transform:translateY(-50%);
 }
 .slide_5{
-  overflow-x:hidden;
+  /*overflow-x:hidden;*/
 }
 .slide_5 .top{
   background:url("../images/slide5_bac.jpg") repeat-y;
@@ -8121,12 +8121,12 @@ a.uk-thumbnail:focus {
   padding-bottom:10px;
 }
 /*封面故事logo*/
-.slide_5 .logo, .slide_4 .logo, .slide_6 .logo{
+.slide_5 .logo, .slide_4 .logo, .slide_6 .logo, .slide_7 .logo{
   overflow:hidden;
   padding-top:4.6%;
   padding-bottom:3.5%;
 }
-.slide_5 .logo img, .slide_4 .logo img,  .slide_6 .logo img{
+.slide_5 .logo img, .slide_4 .logo img,  .slide_6 .logo img, .slide_7 .logo img{
   float:right;
   margin-right:40px;
   width:22.34%;

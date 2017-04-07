@@ -254,6 +254,7 @@ var swiperM = new Swiper('#mainSwiper', {
 $('.pagelist').click(function(e) {
 	_czc.push(﻿["_trackEvent", "Comment", "Click", "Clicked"]);
 	var pagecounter = $(this).attr("pagecounter");
+	console.log(pagecounter)
 	if (pagecounter != page) {
 		jumpToPage(swiperM, pagecounter);
 		swiperAnimate(swiperM);
