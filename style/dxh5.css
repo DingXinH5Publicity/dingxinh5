@@ -1,0 +1,18 @@
+.slide_8 .cont{
+	position: relative;
+}
+.slide_8 .cont .cont_btm{
+	background-color: #bcdb7e;
+    height: 28rem;
+    position: absolute;
+    opacity: 0.8;
+    top: 91%;
+
+}
+.slide_8_text{
+    padding-top: 19%;
+	font-size: 14px;
+    width: 80%;
+    text-indent: 2em;
+    margin: 0 auto;
+}
