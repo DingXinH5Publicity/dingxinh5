@@ -8215,3 +8215,87 @@ a.uk-thumbnail:focus {
   text-indent:2em;
   color:#fff;
 }
+.slide_7 .cont_1, .slide_7 .cont_2{
+  padding-top:13px;
+  position:relative;
+  padding-bottom:10px;
+}
+.slide_7 .cont_1 .slide_7_title, .slide_7 .cont_2 .slide_7_title{
+    margin: 0 30px;
+    font-size: 16px;
+    color: #000;
+    line-height: 3;
+    font-weight: bold;
+}
+.slide_7 .cont_1 .slide_7_text, .slide_7 .cont_2 .slide_7_text{
+    margin: 0 30px;
+    font-size: 12px;
+    color: #000;
+    line-height: 2;
+    text-indent: 2em;
+}
+.slide_7_img{
+  overflow:hidden;
+  margin-top:-25px;
+  margin-bottom:-32px;
+}
+.slide_7_img img{
+  width:40%;
+  float:right;
+  margin-right:30px;
+}
+.slide_7_top_bac{
+  width:43.9%;
+  position:absolute;
+  right:30px;
+  top:0;
+  z-index:-1;
+}
+.slide_7_top_bac1{
+  width:58.7%;
+  position:absolute;
+  left:30px;
+  top:0;
+  margin-top:190%;
+  z-index:-1;
+}
+.slide_7_top_bac3{
+  width:58.43%;
+  position:absolute;
+  left:30px;
+  top:0;
+  margin-top:89.8%;
+  z-index:-1;
+}
+
+.slide_7_bot_cont{
+  background:url("../images/slide_7_bot_logo.png") no-repeat #f9ded1;
+  background-size:26.8% auto;
+  background-position:87.1% 55px;
+  padding-bottom:10px;
+}
+.slide_7_bot_cont_title{
+  font-size:16px;
+  color:#000;
+  text-align:center;
+  margin:0 30px;
+  padding:13px 0;
+  font-weight:bold;
+}
+.slide_7_bot_cont_r1{
+  margin:0 30px;
+  padding-left:10px;
+  background:url("../images/dian.png") no-repeat left center;
+  font-weight: bold;
+  color:#000;
+  font-size: 14px;
+  line-height:2;
+}
+.slide_7_bot_cont_r2{
+  margin:0 30px;
+  padding-left:10px;
+  color:#000;
+  font-size: 14px;
+  line-height:2;
+
+}
