@@ -39,6 +39,7 @@
     margin: 0 30px;
     color:#fff;
     padding:0 30px;
+    line-height:1.5;
 }
 .slide_10 .logo{
     width:100%;
@@ -69,4 +70,8 @@
 }
 .slide_11_img3{
     margin:10px 0;
+}
+/*slide12*/
+.slide_12 .cont_1{
+    margin-top:-60px;
 }
