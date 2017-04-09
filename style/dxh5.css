@@ -75,3 +75,370 @@
 .slide_12 .cont_1{
     margin-top:-60px;
 }
+.slide12_top_bac{
+    background:url("../images/slide_12_img1.jpg") repeat-y;
+    background-size:100% auto;
+}
+.slide12_top_bac_mask{
+    background: rgba(86, 86, 86, 0.25);
+}
+.slide12_top_title1{
+    padding-top:80px;
+    text-align:center;
+    margin:0 30px;
+    font-size:20px;
+    color:#fff;
+    font-weight:bold;
+}
+.slide12_top_title2{
+    margin:10px 30px;
+    text-align:center;
+    font-size: 14px;
+    color:#fff;
+}
+.slide12_cont{
+    padding:10px 0;
+}
+.slide_cont_text{
+    text-indent:2em;
+    font-size:12px;
+    margin:0 30px;
+}
+.slide_12_img4{
+    margin:10px 0;
+}
+.span_{
+    color:#83a747;
+    font-size:14px;
+    font-weight:bold;
+}
+.slide_12_img5{
+    /*margin-top:-12px;*/
+    margin-bottom:30px;
+}
+/*slide13*/
+.slide_13 .cont_1{
+    margin-top:-60px;
+    background:#feeed5;
+    padding-top:70px;
+}
+body .margin_{
+    margin:10px 0;
+}
+.slide_13_text{
+    text-indent:2em;
+    font-size: 12px;
+    margin:0 30px;
+    color:#000;
+}
+/*slide14*/
+.slide_14 .cont_1{
+    margin-top:5px;
+    background:#1b1b16;
+    padding-bottom:10px;
+}
+body .margin_top{
+    margin-top:20px;
+}
+/*slide15*/
+.slide_15 .cont_1{
+    margin-top:-60px;
+    background:#feeed5;
+    padding-bottom: 10px;
+}
+
+.slide_15_img1{
+    padding-top: 65px;
+    margin-bottom:12px;
+}
+.slide15_text{
+    margin:0 30px;
+    font-size:12px;
+    text-indent:2em;
+}
+/*slide6*/
+.slide16_text{
+    margin:0 30px;
+    font-size:12px;
+    text-indent:2em;
+}
+.slide_16_img4{
+    margin-bottom:10px;
+}
+
+.slide_16 .cont_2{
+    background:#feeed5;
+}
+.slide_16_img7{
+    margin-bottom: 10px;
+}
+.slide_16_img8{
+    margin-top:10px;
+}
+.slide_16 .cont_3{
+    padding-top:25px;
+}
+/*slide17*/
+.slide_17_img1, .slide_17_img3{
+    width:90.625%;
+    margin:0 30px;
+}
+body .margin_bottom{
+    margin-bottom: 20px;
+}
+.slide_17_text{
+    margin:0 30px;
+    font-size:12px;
+    text-indent:2em;
+}
+.slide_17_title{
+    margin:0 30px;
+    font-size:14px;
+    line-height:3;
+    font-weight:bold;
+}
+.slide_17 .cont_1{
+    padding-bottom:10px;
+    margin-bottom:10px;
+    border-bottom:1px solid #929292;
+}
+.slide_17_text_dian{
+    padding-left:10px;
+    background:url('../images/dian_.jpg') no-repeat;
+    background-position:5px center;
+    margin:0 30px;
+    font-size:12px;
+}
+.slide_17_bottom{
+    margin:0 30px;
+    padding-bottom:20px;
+}
+.slide_17_left{
+    display:inline-block;
+    width:55.5%;
+    vertical-align: bottom;
+}
+.slide_17_img6{
+    width:39%;
+}
+.slide_17_left .slide_17_title, .slide_17_left .slide_17_text{
+    margin:0;
+}
+.slide_17_left .slide_17_title{
+    line-height:1.5;
+}
+/*slide18*/
+.slide_18 .cont_1{
+    padding-top:10px;
+}
+.slide_18_img1{
+    margin-bottom:10px;
+}
+.slide18_text{
+    margin:0 30px;
+    font-size:12px;
+    text-indent:2em;
+}
+.slide18_title{
+    margin:0 30px;
+    font-size:14px;
+    line-height:3;
+    font-weight:bold;
+}
+.slide18_text_bold{
+    font-weight:bold;
+}
+/*slide19*/
+.slide_19 .cont_1{
+    background:#3f797c;
+}
+.slide_title_big{
+    margin:0 30px;
+    font-size:18px;
+    line-height:3;
+    font-weight:bold;
+}
+.slide_19_img2{
+    width:90.625%;
+    margin-left:30px;
+}
+.slide_19_text{
+    margin:0 30px;
+    font-size:12px;
+    text-indent:2em;
+    color:#fff;
+}
+.slide_19_text_bold{
+    font-weight:bold;
+    color:#000;
+    margin:0 30px 10px;
+}
+.slide_19 .cont_2 .slide_19_text{
+    color:#000;
+}
+/*slide20*/
+.slide_20 .cont_1{
+    background:#675b65;
+}
+.slide_20 .cont_2{
+    padding-top:20px;
+    padding-bottom:10px;
+}
+.slide_20_img2{
+    width: 90.625%;
+    margin-left: 30px;
+}
+.slide_20_text{
+    margin:0 30px;
+    font-size:12px;
+    text-indent:2em;
+    color:#fff;
+}
+.slide_20_text_{
+    font-weight:bold;
+    font-size:14px;
+}
+.slide_20 .cont_2 .slide_20_text{
+    color:#000;
+}
+body .margin_bottom_10{
+    margin-bottom:10px;
+}
+body .margin_top_10{
+    margin-top:10px;
+}
+/*slide21*/
+.slide_21_img1, .slide_21_img10{
+    width: 90.625%;
+    margin-left: 30px;
+}
+.slide_21_img2{
+    margin-top:-20px;
+}
+.slide21_text{
+    margin: 0 30px;
+    font-size: 12px;
+    text-indent: 2em;
+}
+.slide_21 .cont_1{
+    padding-bottom:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.slide14_over{
+    overflow:hidden;
+    margin:30px 30px;
+}
+.slide14_over_left, .slide14_over_right{
+    overflow:hidden;
+}
+.slide14_over_left{
+    float:left;
+}
+.slide14_over_right{
+    float:right;
+}
+.slide14_over_title{
+    font-size:14px;
+    color:#fff;
+    margin:0;
+    font-weight:bold;
+}
+.slide14_over_text1{
+    font-size:12px;
+    color:#fff;
+    margin:0;
+    text-indent:2em;
+    line-height:1.2;
+}
+.slide14_over_text2{
+    font-size:12px;
+    color:#fff;
+    margin:0;
+    text-indent:2em;
+    line-height:1.2;
+}
+.wei_315{
+    width:54.31%;
+}
+.wei_237{
+    width:40.86%;
+}
+.wei_242{
+    width:41.72%;
+}*/
+
+/*媒体查询*/
+/* 兼容iphone4/4s */
+/*@media only screen and (min-device-width: 320px){
+    .slide14_over_text1{
+        line-height:1;
+    }
+    .slide14_over_text2{
+        line-height:1;
+    }
+}*/
+/*针对iPhone 4, 5c,5s, 所有iPhone6的放大模式，个别iPhone6的标准模式*/
+/*@media only screen and (min-device-width: 320px)and (-webkit-min-device-pixel-ratio: 2) {
+    .slide14_over_text1{
+        line-height:1;
+        transform-origin:left top;
+        -webkit-transform-origin:left top;
+        -webkit-transform:scale(0.85, 0.85);
+           -moz-transform:scale(0.85, 0.85);
+            -ms-transform:scale(0.85, 0.85);
+             -o-transform:scale(0.85, 0.85);
+                transform:scale(0.85, 0.85);
+    }
+    .slide14_over_text2{
+        line-height:1;
+        transform-origin:left top;
+        -webkit-transform-origin:left top;
+        -webkit-transform:scale(0.85, 0.85);
+           -moz-transform:scale(0.85, 0.85);
+            -ms-transform:scale(0.85, 0.85);
+             -o-transform:scale(0.85, 0.85);
+                transform:scale(0.85, 0.85);
+    }
+    .slide14_over_text2_{
+        -webkit-transform:translateY(-15px) scale(0.85, 0.85);
+           -moz-transform:translateY(-15px) scale(0.85, 0.85);
+            -ms-transform:translateY(-15px) scale(0.85, 0.85);
+             -o-transform:translateY(-15px) scale(0.85, 0.85);
+                transform:translateY(-15px) scale(0.85, 0.85);
+    }
+}
+/*针对大多数iPhone6的标准模式*/
+@media only screen and (min-device-width: 375px)and (-webkit-min-device-pixel-ratio: 2) {
+    .slide14_over_text1{
+        line-height:1.5;
+        transform-origin:left top;
+        -webkit-transform-origin:left top;
+        -webkit-transform:scale(1, 1);
+           -moz-transform:scale(1, 1);
+            -ms-transform:scale(1, 1);
+             -o-transform:scale(1, 1);
+                transform:scale(1, 1);
+    }
+    .slide14_over_text2{
+        line-height:1.5;
+        transform-origin:left top;
+        -webkit-transform-origin:left top;
+        -webkit-transform:scale(1, 1);
+           -moz-transform:scale(1, 1);
+            -ms-transform:scale(1, 1);
+             -o-transform:scale(1, 1);
+                transform:scale(1, 1);
+    }
+}*/

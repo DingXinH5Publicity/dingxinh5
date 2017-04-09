@@ -8121,13 +8121,13 @@ a.uk-thumbnail:focus {
   padding-bottom:10px;
 }
 /*封面故事logo*/
-.slide_5 .logo, .slide_4 .logo, .slide_6 .logo, .slide_7 .logo, .slide_9 .logo, .slide_10 .logo, .slide_11 .logo, .slide_12 .logo{
+.slide_5 .logo, .slide_4 .logo, .slide_6 .logo, .slide_7 .logo, .slide_9 .logo, .slide_10 .logo, .slide_11 .logo, .slide_12 .logo, .slide_13 .logo, .slide_14 .logo, .slide_15 .logo, .slide_16 .logo, .slide_17 .logo, .slide_18 .logo, .slide_19 .logo, .slide_20 .logo, .slide_21 .logo{
   overflow:hidden;
   /*padding-top:4.6%;
   padding-bottom:3.5%;*/
   padding:12px 0;
 }
-.slide_5 .logo img, .slide_4 .logo img,  .slide_6 .logo img, .slide_7 .logo img, .slide_9 .logo img, .slide_10 .logo img, .slide_11 .logo img, .slide_12 .logo img{
+.slide_5 .logo img, .slide_4 .logo img,  .slide_6 .logo img, .slide_7 .logo img, .slide_9 .logo img, .slide_10 .logo img, .slide_11 .logo img, .slide_12 .logo img, .slide_13 .logo img, .slide_14 .logo img, .slide_15 .logo img, .slide_16 .logo img, .slide_17 .logo img, .slide_18 .logo img, .slide_19 .logo img, .slide_20 .logo img, .slide_21 .logo img{
   float:right;
   margin-right:30px;
   height:36px;
