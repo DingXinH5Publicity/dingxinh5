@@ -30,15 +30,15 @@
 
 }
 .slide_10_text{
-    vertical-align:middle;
-    display:table-cell;
+    /*vertical-align:middle;*/
+    /*display:table-cell;*/
     /*padding-top: 19%;*/
     font-size: 14px;
     /*width: 80%;*/
     text-indent: 2em;
-    margin: 0 30px;
+    margin:30px 30px;
     color:#fff;
-    padding:0 30px;
+    /*padding:0 30px;*/
     line-height:1.5;
 }
 .slide_10 .logo{
@@ -46,10 +46,11 @@
     position:absolute;
     top:0;
     left:0;
+    z-index:10;
 }
-.slide_11 .cont_1{
+/*.slide_11 .cont_1{
     margin-top:-50px;
-}
+}*/
 .slide_11_img1{
     margin:0 30px;
 }
@@ -323,19 +324,113 @@ body .margin_top_10{
 .slide_21 .cont_1{
     padding-bottom:20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*logo动画*/
+.top_1{
+    position:relative;
+}
+.logo_{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:2;
+}
+.logo_1{
+    width: 4.9%;
+    margin-left: 1.798%;
+    margin-top: 2.43%;
+}
+.logo_2{
+    width: 9.312%;
+    margin-left: 5.5%;
+    margin-top: 7.089%;
+}
+.logo_3{
+    width: 7.83%;
+    margin-left: 14.497%;
+    margin-top: 7.089%;
+}
+.logo_4{
+    width: 5.079%;
+    margin-left: 23.4%;
+    margin-top: 3.28%;
+}
+.logo_5{
+    width: 9.629%;
+    margin-left: 28%;
+    margin-top: 7.0899%;
+}
+.logo_6{
+    width: 9.2063%;
+    margin-left: 37.19%;
+    margin-top: 2.222%;
+}
+.logo_7{
+    width: 7.0899%;
+    margin-left: 46.714%;
+    margin-top: 4.1269%;
+}
+.slide_3_top{
+    position: relative;
+}
+.slide_3 .logo img, .slide_8 .logo img{
+    width:auto;
+    float:right;
+    margin-right:30px;
+    height:36px;
+}
+.slide_3 .logo, .slide_8 .logo{
+    width:100%;
+    padding: 12px 0;
+    position:absolute;
+    top:0;
+    right:0;
+}
+.slide_4 .cont1, .slide_8 .cont_1{
+    position: absolute;
+    left:0;
+    top:0;
+    z-index:-1;
+}
+.slide_4 .slide_4_title{
+    width: 90.625%;
+    margin: 0 30px;
+    margin-top:10px;
+}
+.slide_4_text{
+    margin-bottom:0;
+    margin-top:7px;
+}
+.slide_4_bot{
+    width: 90.625%;
+    margin: 0 30px;
+    margin-top:-20px;
+}
+.blue{
+    color:#1c6bac !important;
+}
+.green{
+    color:#75a814 !important;
+}
+.red{
+    color:#ff0808 !important;
+}
+.yellow{
+    color:#cc891d !important;
+}
+.slide_6 .cont{
+    position:relative;
+    top:0px;
+    left:0;
+    z-index:-1;
+    font-size:12px;
+    line-height:1.8;
+}
+.slide_6 .logo{
+    position:absolute;
+    top:0;
+    right:0;
+    width:100%;
+}
 /*.slide14_over{
     overflow:hidden;
     margin:30px 30px;
