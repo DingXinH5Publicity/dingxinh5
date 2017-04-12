@@ -8115,10 +8115,10 @@ a.uk-thumbnail:focus {
 .slide_5{
   /*overflow-x:hidden;*/
 }
-.slide_5 .top{
+.slide_5 .top{/*
   background:url("../images/slide5_bac.jpg") repeat-y;
   background-size:100% auto;
-  padding-bottom:10px;
+  padding-bottom:10px;*/
 }
 /*封面故事logo*/
 .slide_3 .logo, .slide_5 .logo, .slide_4 .logo, .slide_6 .logo, .slide_7 .logo, .slide_9 .logo, .slide_10 .logo, .slide_11 .logo, .slide_12 .logo, .slide_13 .logo, .slide_14 .logo, .slide_15 .logo, .slide_16 .logo, .slide_17 .logo, .slide_18 .logo, .slide_19 .logo, .slide_20 .logo, .slide_21 .logo{
