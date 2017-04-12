@@ -523,6 +523,7 @@ body .margin_top_10{
     bottom:15px;
     right:30px;
 }
+<<<<<<< HEAD
 .page2_top{
     margin-top:60px;
 }
@@ -540,6 +541,17 @@ body .margin_top_10{
 .slide_4 .cont1{
     position:static;
 }
+=======
+.slide_4 .cont_bot{
+    position:absolute;
+    left:0;
+    bottom:20px;
+    background:#fff;
+}
+
+
+
+>>>>>>> 779b3b0721a9befee0b057f8d8fc487c3b0cda5f
 
 
 
