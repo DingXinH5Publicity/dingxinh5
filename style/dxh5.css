@@ -523,7 +523,12 @@ body .margin_top_10{
     bottom:15px;
     right:30px;
 }
-
+.slide_4 .cont_bot{
+    position:absolute;
+    left:0;
+    bottom:20px;
+    background:#fff;
+}
 
 
 
