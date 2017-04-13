@@ -202,9 +202,11 @@ body .margin_bottom{
     font-weight:bold;
 }
 .slide_17 .cont_1{
-    padding-bottom:10px;
-    margin-bottom:10px;
+    /*padding-bottom:10px;*/
     border-bottom:1px solid #929292;
+}
+.slide_17 .con_2{
+    margin-bottom:10px;
 }
 .slide_17_text_dian{
     padding-left:10px;
@@ -585,13 +587,110 @@ body .margin_top_10{
 .slide_21_color_ls{
     color:#19878b !important;
 }
+.slide_13_text_{
+    text-indent: 2em;
+    font-size: 12px;
+    margin: 0 20px;
+    color: #000;
+    background:#fea291;
+    padding:10px;
+    color:#fff;
+}
+.yun1{
+    position:absolute;
+    right:-200px;
+    top: 65%;
+    width:30%;
+    z-index:-1;
+    animation:animate_1 infinite 8s;
+}
+.yun2{
+    position:absolute;
+    right:-100px;
+    top: 120%;
+    width:15%;
+    z-index:-1;
+    animation:animate_1 infinite 8s .5s;
+}
+@-webkit-keyframes animate_1{
+    0% { 
+        -webkit-transform:translateX(0);
+        transform:translateX(0);
+     }
+    100% { 
+        -webkit-transform:translateX(-600px);
+        transform:translateX(-600px);
+     }
+}
+@keyframes animate_1{
+    0% { 
+        -webkit-transform:translateX(0);
+        transform:translateX(0);
+     }
+    100% { 
+        -webkit-transform:translateX(-600px);
+        transform:translateX(-600px);
+     }
+}
+
+.sun{
+    position:absolute;
+    width:10%;
+    top:200%;
+    right:12%;
+    z-index:10;
+    animation:sun infinite 5s linear;
+}
+@-webkit-keyframes sun{
+    0% { 
+        -webkit-transform:rotate(0);
+        transform:rotate(0);
+     }
+    100% { 
+        
+        -webkit-transform:rotate(360deg);
+        transform:rotate(360deg);
+     }
+}
+@keyframes sun{
+    0% { 
+        -webkit-transform:rotate(0);
+        transform:rotate(0);
+     }
+    100% { 
+        
+        -webkit-transform:rotate(360deg);
+        transform:rotate(360deg);
+     }
+}
 
 
 
-
-
-
-
+.yun3, .yun4{
+    position:absolute;
+    z-index:-1;
+}
+body .slide_2 .yun3{
+    top: 10%;
+    left:100%;
+    width:50%;
+    animation:animate_1 5s infinite ease-out;
+}
+body .slide_2 .yun4{
+    top: 30%;
+    left:100%;
+    width:30%;
+    animation:animate_1 7s infinite ease-in 1.5s;
+}
+.slide_3_top .yinyan{
+    width:24.06%;
+    position:absolute;
+    bottom:27%;
+    left:38%;
+}
+.slide_2, .slide_0{
+    overflow:hidden;
+}
 /*.slide14_over{
     overflow:hidden;
     margin:30px 30px;

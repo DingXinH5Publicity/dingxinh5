@@ -8081,9 +8081,10 @@ a.uk-thumbnail:focus {
   overflow:hidden;
   padding-top:12px;
   padding-bottom:11%;
+  position:relative;
 }
 .slide_3_top img{
-  width:60%;
+  width:33.43%;
   float:right;
   margin-right:15px;
 }
