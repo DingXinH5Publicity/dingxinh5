@@ -504,7 +504,7 @@ body .margin_top_10{
     padding:15px 30px;
     background:rgba(70, 101, 41, 0.62);
     position:relative;
-    margin-bottom:10px;
+    /*margin-bottom:10px;*/
 }
 .slide_12_top_text{
     width:61.379%;
@@ -568,8 +568,23 @@ body .margin_top_10{
     -webkit-animation:flash 1s infinite;
 }
 
+.slide_21_color_zs{
+    color:#a91e92 !important;
+}
 
+.slide_21_color_zs1{
+    color:#a50e8a !important;
+}
+.slide_21_color_zs2{
+    color:#ac18a7 !important;
+}
+.slide_21_color_hs{
+    color:#c91515 !important;
+}
 
+.slide_21_color_ls{
+    color:#19878b !important;
+}
 
 
 
