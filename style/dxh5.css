@@ -598,19 +598,27 @@ body .margin_top_10{
 }
 .yun1{
     position:absolute;
-    right:-200px;
+    right:-100px;
     top: 65%;
     width:30%;
     z-index:-1;
-    animation:animate_1 infinite 8s;
+    animation:animate_1 7s infinite ;
 }
 .yun2{
     position:absolute;
-    right:-100px;
+    right:-50px;
     top: 120%;
     width:15%;
     z-index:-1;
-    animation:animate_1 infinite 8s .5s;
+    animation:animate_1 7s infinite .5s;
+}
+.yun3{
+    position:absolute;
+    right:-175px;
+    top: 90%;
+    width:25%;
+    z-index:-1;
+    animation:animate_1 7s infinite 2.5s;
 }
 @-webkit-keyframes animate_1{
     0% { 
